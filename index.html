@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Angular + ZingChart</title>    
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <section ng-app="myApp">
+	  <div ng-controller="MainController">
+		<zingchart id="chart-1" zc-json="spData"></zingchart> 
+	  </div>
+    </section>
+	
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.10/angular.min.js'></script>
+	<script src='http://cdn.zingchart.com/zingchart.min.js'></script>
+	<script src='https://rawgit.com/zingchart/ZingChart-AngularJS/master/src/zingchart-angularjs.js'></script>
+	<script src="js/index.js"></script>
+  </body>
+</html>
